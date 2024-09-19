@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 9.5rem;
+    z-index: 10;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    background-color: lightpink;
+}
+
+.left-navbar{
+    font-size: 1.2rem;
+    /* margin: .8rem; */
+}
+
+.right-navbar{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.main-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-ul li{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.hover-li{
+    position: relative;
+}
+
+.hover-li:hover{
+    cursor: pointer;
+}
+
+.megaMenu{
+    position: absolute;
+    top: 1.2rem;
+    right: 0;
+    /* border: 1px solid black; */
+    width: 10rem;
+    text-align: center;
+    z-index: 99;
+    background-color: gray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+}
+
+.megaMenu:hover{
+    cursor: pointer;
+}
+
+.megaMenu-ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.megaMenu-ul p{
+    font-size: 1rem;
+    margin-top: 0;
+    color: whitesmoke;
+}
+
+.nav-btn{
+    /* padding: 2px 2px; */
+    height: 1.5rem;
+    margin: auto;
+    background-color: lightpink;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.nav-btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+form{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    gap: .8rem;
+    border-radius: 15px;
+}
+
+.signup-details{
+    width: 20rem;
+    margin: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+

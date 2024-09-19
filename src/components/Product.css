@@ -1,0 +1,15 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 2rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
